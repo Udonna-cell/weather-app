@@ -1,0 +1,8 @@
+# app.js
+# bin/
+node_modules/
+# package.json
+package-lock.json
+public/stylesheets/
+# routes/
+# views/
