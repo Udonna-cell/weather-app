@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > .user {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        font-family: "Rubik", sans-serif;
+
+        & > p.small {
+            font-weight: normal;
+            font-size: 10px;
+            color: #BDBDBD;
+        }
+        & > p:last-child {
+            font-weight: medium;
+            font-size: 1rem;
+            color: #FFFFFF;
+        }
+    }
+}
